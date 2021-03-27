@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Quran</string>
+    <string name="title">المصحف قراءة</string>
+    <string name="radio">استماع</string>
+    <string name="read">قراءة</string>
 </resources>
