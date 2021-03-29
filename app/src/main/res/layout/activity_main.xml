@@ -85,10 +85,15 @@
             android:text="@string/read"
             android:textColor="@color/white"
             android:textSize="20sp"/>
-        
-
-
     </LinearLayout>
+    <FrameLayout
+        android:id="@+id/Frame_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/linear_word"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
